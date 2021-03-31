@@ -11,7 +11,7 @@ public class Salary {
 	}
 	
 	public void increaseSalary(double perc) {
-		this.grossSalary = grossSalary + ((perc / 100.0) * grossSalary);
+		grossSalary = grossSalary + ((perc / 100.0) * grossSalary);
 	}
 	
 	public String toString() {
