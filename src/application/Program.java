@@ -28,7 +28,7 @@ public class Program {
 		salary.increaseSalary(tax);
 		
 		System.out.println();
-		System.out.println("Update data" + salary);
+		System.out.println("Update data: " + salary);
 		
 
 		sc.close();
