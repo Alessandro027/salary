@@ -13,7 +13,7 @@ public class Program {
 		Scanner sc = new Scanner(System.in);
 		Salary salary = new Salary();
 		
-		System.out.print("Digite o nome do funcionario: ");
+		System.out.print("Name: ");
 		salary.name = sc.nextLine();
 		System.out.print("Gross salary: ");
 		salary.grossSalary = sc.nextDouble();
